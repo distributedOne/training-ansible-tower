@@ -1,0 +1,6 @@
+- include: db.yaml
+
+- hosts: web
+  roles:
+    - django
+
